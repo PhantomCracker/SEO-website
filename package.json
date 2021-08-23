@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "node ./node_modules/\\\\@vue/cli-service/bin/vue-cli-service.js serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.0",
+    "sass-loader": "^10",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -18,7 +23,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "sass": "^1.38.0"
   },
   "eslintConfig": {
     "root": true,

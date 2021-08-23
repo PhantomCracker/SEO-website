@@ -20,3 +20,24 @@
     }
   }
 }
+
+.my-yellow {
+  color: $ourYellow;
+}
+
+.my-primary-btn {
+  background-color: $ourYellow;
+  border-color: $ourYellow;
+  a {
+    font-size: 1.7rem;
+  }
+  &:hover {
+    background-color: $ourBlack;
+    border-color: $ourBlack;
+  }
+}
+
+.with-border {
+  border-left: 10px solid $ourYellow;
+  padding-left: 25px;
+}

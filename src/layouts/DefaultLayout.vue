@@ -1,28 +1,30 @@
 <template>
-  <div class="footer">
+  <div>
     <router-view></router-view>
-    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="pr-xl-4">
-              <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>
-              <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
-              <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>
+    <div class="footer">
+      <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="pr-xl-4">
+                <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>
+                <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="d-md-none"><hr/></div>
+            <div class="col-sm-12 col-md-6 align-self-center">
+              <h5>Contacts</h5>
+              <ul class="contact-list">
+                <li>Address: 78 Vivien Avenue</li>
+                <li>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>
+                <li>Phone: <a href="tel:03333446467">03333446467</a></li>
+              </ul>
             </div>
           </div>
-          <div class="d-md-none"><hr/></div>
-          <div class="col-sm-12 col-md-6 align-self-center">
-            <h5>Contacts</h5>
-            <ul class="contact-list">
-              <li>Address: 78 Vivien Avenue</li>
-              <li>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>
-              <li>Phone: <a href="tel:03333446467">03333446467</a></li>
-            </ul>
-          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </div>
 </template>
 

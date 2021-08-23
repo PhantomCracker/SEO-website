@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <h1>This is home</h1>
+  <div class="home">
+    <Hero />
   </div>
 </template>
 
 <script>
+import Hero from '../components/home/Hero';
+
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Hero
+  },
   methods: {}
 }
 </script>

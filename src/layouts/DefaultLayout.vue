@@ -1,6 +1,10 @@
 <template>
   <div>
+<!--    Start Navbar -->
+    <h1>This is navbar</h1>
+<!--    End Navbar-->
     <router-view></router-view>
+<!--    Start Footer -->
     <div class="footer">
       <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
         <div class="container">
@@ -25,6 +29,7 @@
         </div>
       </footer>
     </div>
+<!--    End Footer -->
   </div>
 </template>
 

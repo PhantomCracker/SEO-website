@@ -1,7 +1,45 @@
 <template>
   <div>
 <!--    Start Navbar -->
-    <h1>This is navbar</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation ">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+         <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link active h5" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="#">Pages</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link h5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Contact Dropdown link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!--    End Navbar-->
     <router-view></router-view>
 <!--    Start Footer -->
@@ -40,11 +78,11 @@ export default {
   methods: {}
 }
 </script>
-
 <style scoped lang="scss">
 .context-dark, .bg-gray-dark, .bg-primary {
   color: rgba(255, 255, 255, 0.8);
 }
+// #ffe9e9
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
   color: #ffffff;
@@ -92,4 +130,19 @@ ul, ol {
   transition: .22s ease;
 }
 
+.navigation {
+  background: #ffe9e9 !important;
+  min-height: 60px !important;
+  li {
+    padding-right: 10px;
+    }
+}
+
+.container-fluid {
+  min-height: 80px;
+} 
+
+.navbar-brand {
+   padding-left: 300px;
+}
 </style>

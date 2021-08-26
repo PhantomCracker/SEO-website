@@ -48,9 +48,6 @@ export default {
         font-style: italic;
       }
     }
-    .small-text {
-      font-size: 1.5rem;
-    }
     .my-primary-btn {
       width: 25%;
       margin: 0 auto;

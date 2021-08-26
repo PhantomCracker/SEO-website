@@ -3,6 +3,8 @@
     <Hero />
     <ServicesCard />
     <Information />
+    <AboutTechnicians />
+    <Partners />
   </div>
 </template>
 
@@ -10,13 +12,17 @@
 import Hero from '../components/home/Hero';
 import ServicesCard from "../components/home/ServicesCard";
 import Information from "../components/home/Information";
+import AboutTechnicians from "../components/home/AboutTechnicians";
+import Partners from "../components/home/Partners";
 
 export default {
   name: "Home",
   components: {
     Hero,
     ServicesCard,
-    Information
+    Information,
+    AboutTechnicians,
+    Partners
   },
   methods: {}
 }

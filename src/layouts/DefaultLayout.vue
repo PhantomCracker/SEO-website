@@ -1,7 +1,38 @@
 <template>
   <div>
 <!--    Start Navbar -->
-    <h1>This is navbar</h1>
+    <b-navbar toggleable="lg" class="navigation">
+      <b-navbar-brand href="#" class="px-5 mx-5 my-4">
+        <img src="../assets/logo.png" alt="logo" width="200px">
+      </b-navbar-brand>
+
+      <b-navbar-toggle target="navbar-toggle-collapse">
+      </b-navbar-toggle>
+
+      <b-collapse id="navbar-toggle-collapse" is-nav class="mx-5 px-5 mx-auto">
+        <b-navbar-nav class="h4 mx-auto" >
+          <b-nav-item href="#" active class="p-2">Home</b-nav-item>
+          <b-nav-item href="#" class="p-2">About</b-nav-item>
+          <b-nav-item href="#" class="p-2">Services</b-nav-item>
+          <b-nav-item href="#" class="p-2">Blog</b-nav-item>
+
+          <b-nav-item-dropdown text="Pages" class="p-2">
+            <b-dropdown-item href="#">EN</b-dropdown-item>
+            <b-dropdown-item href="#">ES</b-dropdown-item>
+            <b-dropdown-item href="#">RU</b-dropdown-item>
+            <b-dropdown-item href="#">FA</b-dropdown-item>
+          </b-nav-item-dropdown>
+
+          <b-nav-item-dropdown text="Contact" class="p-2">
+            <b-dropdown-item href="#">Profile</b-dropdown-item>
+            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+
+
+     
+      </b-collapse>
+    </b-navbar>
 <!--    End Navbar-->
     <router-view></router-view>
 <!--    Start Footer -->
@@ -38,12 +69,14 @@ export default {
   components: {},
   methods: {}
 }
-</script>
 
+
+</script>
 <style scoped lang="scss">
 .context-dark, .bg-gray-dark, .bg-primary {
   color: rgba(255, 255, 255, 0.8);
 }
+// #ffe9e9
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
   color: #ffffff;
@@ -99,5 +132,17 @@ ul, ol {
     }
   }
 }
+
+.navigation {
+  background: #ffe9e9 !important;
+ 
+  // a{
+  //   color: black !important;
+  // }
+}
+
+// .navbar-brand {
+//    padding-left: 300px;
+// }
 
 </style>

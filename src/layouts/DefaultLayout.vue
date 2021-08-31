@@ -1,23 +1,18 @@
 <template>
   <div>
 <!--    Start Navbar -->
-    <b-navbar toggleable="lg" class="navigation">
-      <b-navbar-brand href="#" class="px-5 mx-5">
+    <b-navbar toggleable="lg" class="navigation pt-3 pb-3">
+      <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
         <img src="../assets/logo.png" alt="logo" width="200px">
-      </b-navbar-brand>
+      </router-link>
       <b-navbar-toggle target="navbar-toggle-collapse">
       </b-navbar-toggle>
       <b-collapse id="navbar-toggle-collapse" is-nav class="mx-5 px-5 mx-auto">
         <b-navbar-nav class="h4 mx-auto d-flex align-items-center">
-          <b-nav-item href="#" active class="p-2">Home</b-nav-item>
-          <b-nav-item href="#" class="p-2">About us</b-nav-item>
-          <b-nav-item-dropdown text="Locksmith near me" class="p-2">
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item href="tel:03333446467" class="p-2"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</b-nav-item>
+          <router-link :to="{ path: '/' }" class="ps-3 pe-3">Home</router-link>
+          <router-link :to="{ path: '/about-us' }" class="ps-3 pe-3">About us</router-link>
+          <router-link :to="{ path: '/locksmith-near-me' }" class="ps-3 pe-3">Locksmith near me</router-link>
+          <a href="tel:03333446467" class="ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</a>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -122,21 +117,24 @@ ul, ol {
 
 .navbar {
   background: $ourBlack;
-  .nav-item {
-    .nav-link {
-      color: #ffffff;
-      font-size: 1rem;
-      &.active {
-        color: #ffffff;
-      }
-      &:hover {
-        color: $ourYellow
-      }
-    }
+  .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
   }
   .navbar-brand {
     padding: 0;
     margin: 0;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    &.active, &:after {
+      color: #ffffff;
+    }
+    &:hover {
+      color: $ourYellow;
+    }
   }
 }
 </style>

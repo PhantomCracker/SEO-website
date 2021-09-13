@@ -45,6 +45,9 @@ export default {
     &.with-border {
       border-left: 10px solid $ourYellow;
       padding-left: 25px;
+      @media (max-width: 700px) {
+        font-size: 3.5rem;
+      }
     }
   }
   .btn-primary {

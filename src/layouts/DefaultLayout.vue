@@ -11,7 +11,7 @@
         <b-navbar-nav class="h4 mx-auto d-flex align-items-center">
           <router-link :to="{ path: '/' }" class="ps-3 pe-3">Home</router-link>
           <router-link :to="{ path: '/about-us' }" class="ps-3 pe-3">About us</router-link>
-          <router-link :to="{ path: '/locksmith-near-me' }" class="ps-3 pe-3">Locksmith near me</router-link>
+          <router-link :to="{ path: '/locksmith-near-me' }" class="ps-3 pe-3 fw-bold">Locksmith near me</router-link>
           <a href="tel:03333446467" class="ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</a>
         </b-navbar-nav>
       </b-collapse>
@@ -23,21 +23,23 @@
       <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 text-start">
               <div class="pr-xl-4">
                 <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>
                 <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
-                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>
               </div>
             </div>
             <div class="d-md-none"><hr/></div>
-            <div class="col-sm-12 col-md-6 align-self-center">
+            <div class="col-sm-12 col-md-6 align-self-center text-center">
               <ul class="contact-list">
                 <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: 78 Vivien Avenue</li>
                 <li><span><font-awesome-icon icon="envelope"></font-awesome-icon></span>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>
                 <li><span><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>Phone: <a href="tel:03333446467">03333446467</a></li>
               </ul>
             </div>
+          </div>
+          <div class="row pt-3">
+            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>
           </div>
         </div>
       </footer>
@@ -129,6 +131,7 @@ ul, ol {
     color: #ffffff;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 300;
     &.active, &:after {
       color: #ffffff;
     }

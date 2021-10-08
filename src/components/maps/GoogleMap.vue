@@ -9,18 +9,18 @@
       <br/>
     </div>
     <br>
-    <gmap-map
-        :zoom="14"
-        :center="center"
-        style="width:100%;  height: 600px;"
-    >
-      <gmap-marker
-          :key="index"
-          v-for="(m, index) in locationMarkers"
-          :position="m.position"
-          @click="center=m.position"
-      ></gmap-marker>
-    </gmap-map>
+<!--    <gmap-map-->
+<!--        :zoom="14"-->
+<!--        :center="center"-->
+<!--        style="width:100%;  height: 600px;"-->
+<!--    >-->
+<!--      <gmap-marker-->
+<!--          :key="index"-->
+<!--          v-for="(m, index) in locationMarkers"-->
+<!--          :position="m.position"-->
+<!--          @click="center=m.position"-->
+<!--      ></gmap-marker>-->
+<!--    </gmap-map>-->
   </div>
 </template>
 

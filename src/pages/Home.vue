@@ -1,10 +1,12 @@
 <template>
   <div class="home">
+    <ServicesOnTop />
     <Hero />
     <FindLocksmith />
     <ServicesCard />
     <Information />
     <AboutTechnicians />
+    <ChooseUs />
     <Partners />
   </div>
 </template>
@@ -16,10 +18,14 @@ import ServicesCard from "../components/home/ServicesCard";
 import Information from "../components/home/Information";
 import AboutTechnicians from "../components/home/AboutTechnicians";
 import Partners from "../components/home/Partners";
+import ServicesOnTop from "../components/home/ServicesOnTop";
+import ChooseUs from "../components/home/ChooseUs";
 
 export default {
   name: "Home",
   components: {
+    ChooseUs,
+    ServicesOnTop,
     FindLocksmith,
     Hero,
     ServicesCard,

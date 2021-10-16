@@ -32,6 +32,8 @@ export default {
 <style scoped lang="scss">
   .services-on-top {
     background-color: $ourBlack;
+    border-top: 3px solid $ourYellow;
+    padding-top: 20px;
   }
 
 </style>

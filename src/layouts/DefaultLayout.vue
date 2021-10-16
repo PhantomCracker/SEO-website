@@ -5,16 +5,24 @@
       <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
         <img src="../assets/logo.png" alt="logo" width="200px">
       </router-link>
-      <b-navbar-toggle target="navbar-toggle-collapse">
-      </b-navbar-toggle>
-      <b-collapse id="navbar-toggle-collapse" is-nav class="mx-5 px-5 mx-auto">
-        <b-navbar-nav class="h4 mx-auto d-flex align-items-center">
-          <router-link :to="{ path: '/' }" class="ps-3 pe-3">Home</router-link>
-          <router-link :to="{ path: '/about-us' }" class="ps-3 pe-3">About us</router-link>
-          <router-link :to="{ path: '/locksmith-near-me' }" class="ps-3 pe-3 fw-bold">Locksmith near me</router-link>
-          <a href="tel:03333446467" class="ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</a>
-        </b-navbar-nav>
-      </b-collapse>
+      <div class="container">
+        <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
+          <ul class="navbar-nav h4">
+            <li class="nav-item">
+              <router-link :to="{ path: '/' }" class="nav-link ps-3 pe-3">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link :to="{ path: '/about-us' }" class="nav-link ps-3 pe-3">About us</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link :to="{ path: '/locksmith-near-me' }" class="nav-link ps-3 pe-3 fw-bold">Locksmith near me</router-link>
+            </li>
+            <li class="nav-item">
+              <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </b-navbar>
 <!--    End Navbar-->
     <router-view></router-view>
@@ -119,25 +127,33 @@ ul, ol {
 
 .navbar {
   background: $ourBlack;
-  .nav-link {
-    color: #ffffff;
-    font-size: 1rem;
+  .nav-item {
+    .nav-link {
+      color: #ffffff;
+      font-size: 1rem;
+      &.phone {
+        border: 2px solid $ourYellow;
+        border-radius: 30px;
+        background: rgb(255,198,0);
+        background: linear-gradient(90deg, rgba(255,198,0,1) 0%, rgba(0,0,0,0) 100%, rgba(0,212,255,1) 100%);
+      }
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 300;
+      &.active, &:after, &:focus {
+        color: #ffffff;
+      }
+      &:hover {
+        color: $ourYellow;
+      }
+    }
   }
   .navbar-brand {
     padding: 0;
     margin: 0;
-  }
-  a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 300;
-    &.active, &:after {
-      color: #ffffff;
-    }
-    &:hover {
-      color: $ourYellow;
-    }
   }
 }
 </style>

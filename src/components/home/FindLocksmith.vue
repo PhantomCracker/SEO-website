@@ -1,5 +1,5 @@
 <template>
-  <div class="find-locksmith pt-3 pb-3">
+  <div class="find-locksmith pt-5 pb-5">
     <div class="container">
       <div class="row">
         <div class="col-12">

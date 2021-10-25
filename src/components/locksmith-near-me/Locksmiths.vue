@@ -40,85 +40,85 @@
           <div class="row">
             <div class="col-12 col-md-3">
               <h2>B</h2>
-              <p>Locksmith in Brighton</p>
-              <p>Locksmith in Bristol</p>
-              <p>Locksmith in Birgmingham</p>
+              <router-link :to="{ path: '/locksmith-brighton' }"><p>Locksmith in Brighton</p></router-link>
+              <router-link :to="{ path: '/locksmith-bristol' }"><p>Locksmith in Bristol</p></router-link>
+              <router-link :to="{ path: '/locksmith-birgmingham' }"><p>Locksmith in Birgmingham</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>C</h2>
-              <p>Locksmith in Crewe</p>
-              <p>Locksmith in Colchester</p>
-              <p>Locksmith in Chester</p>
-              <p>Locksmith in Chelmsford</p>
-              <p>Locksmith in Cambridge</p>
-              <p>Locksmith in Coventry</p>
+              <router-link :to="{ path: '/locksmith-crewe' }"><p>Locksmith in Crewe</p></router-link>
+              <router-link :to="{ path: '/locksmith-colchester' }"><p>Locksmith in Colchester</p></router-link>
+              <router-link :to="{ path: '/locksmith-chester' }"><p>Locksmith in Chester</p></router-link>
+              <router-link :to="{ path: '/locksmith-chelmsford' }"><p>Locksmith in Chelmsford</p></router-link>
+              <router-link :to="{ path: '/locksmith-cambridge' }"><p>Locksmith in Cambridge</p></router-link>
+              <router-link :to="{ path: '/locksmith-coventry' }"><p>Locksmith in Coventry</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>D</h2>
-              <p>Locksmith in Durham</p>
-              <p>Locksmith in Derby</p>
-              <p>Locksmith in Doncaster</p>
+              <router-link :to="{ path: '/locksmith-durham' }"><p>Locksmith in Durham</p></router-link>
+              <router-link :to="{ path: '/locksmith-derby' }"><p>Locksmith in Derby</p></router-link>
+              <router-link :to="{ path: '/locksmith-doncaster' }"><p>Locksmith in Doncaster</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>G</h2>
-              <p>Locksmith in Guildford</p>
-              <p>Locksmith in Glouchester</p>
+              <router-link :to="{ path: '/locksmith-guildford' }"><p>Locksmith in Guildford</p></router-link>
+              <router-link :to="{ path: '/locksmith-glouchester' }"><p>Locksmith in Glouchester</p></router-link>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
               <h2>I</h2>
-              <p>Locksmith in Ipswich</p>
+              <router-link :to="{ path: '/locksmith-ipswich' }"><p>Locksmith in Ipswich</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>L</h2>
-              <p>Locksmith in Leeds</p>
-              <p>Locksmith in Liverpool</p>
-              <p>Locksmith in Luton</p>
-              <p>Locksmith in Leicester</p>
+              <router-link :to="{ path: '/locksmith-leeds' }"><p>Locksmith in Leeds</p></router-link>
+              <router-link :to="{ path: '/locksmith-liverpool' }"><p>Locksmith in Liverpool</p></router-link>
+              <router-link :to="{ path: '/locksmith-luton' }"><p>Locksmith in Luton</p></router-link>
+              <router-link :to="{ path: '/locksmith-leicester' }"><p>Locksmith in Leicester</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>M</h2>
-              <p>Locksmith in Middlesbrough</p>
-              <p>Locksmith in Milton Keynes</p>
-              <p>Locksmith in Manchester</p>
+              <router-link :to="{ path: '/locksmith-leicester' }"><p>Locksmith in Middlesbrough</p></router-link>
+              <router-link :to="{ path: '/locksmith-milton-keynes' }"><p>Locksmith in Milton Keynes</p></router-link>
+              <router-link :to="{ path: '/locksmith-manchester' }"><p>Locksmith in Manchester</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>N</h2>
-              <p>Locksmith in Nottingham</p>
-              <p>Locksmith in Northampton</p>
-              <p>Locksmith in Newcastle</p>
-              <p>Locksmith in Norwich</p>
+              <router-link :to="{ path: '/locksmith-nottingham' }"><p>Locksmith in Nottingham</p></router-link>
+              <router-link :to="{ path: '/locksmith-northampton' }"><p>Locksmith in Northampton</p></router-link>
+              <router-link :to="{ path: '/locksmith-newcastle' }"><p>Locksmith in Newcastle</p></router-link>
+              <router-link :to="{ path: '/locksmith-norwich' }"><p>Locksmith in Norwich</p></router-link>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
               <h2>O</h2>
-              <p>Locksmith in Oxford</p>
-              <p>Locksmith in Oldham</p>
+              <router-link :to="{ path: '/locksmith-oxford' }"><p>Locksmith in Oxford</p></router-link>
+              <router-link :to="{ path: '/locksmith-oldham' }"><p>Locksmith in Oldham</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>P</h2>
-              <p>Locksmith in Peterborough</p>
+              <router-link :to="{ path: '/locksmith-peterborough' }"><p>Locksmith in Peterborough</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>R</h2>
-              <p>Locksmith in Reading</p>
+              <router-link :to="{ path: '/locksmith-reading' }"><p>Locksmith in Reading</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>S</h2>
-              <p>Locksmith in Stoke on Trent</p>
-              <p>Locksmith in Sheffield</p>
-              <p>Locksmith in Stevenage</p>
-              <p>Locksmith in Swindon</p>
-              <p>Locksmith in Sunderland</p>
+              <router-link :to="{ path: '/locksmith-stoke-on-trent' }"><p>Locksmith in Stoke on Trent</p></router-link>
+              <router-link :to="{ path: '/locksmith-sheffield' }"><p>Locksmith in Sheffield</p></router-link>
+              <router-link :to="{ path: '/locksmith-stevenage' }"><p>Locksmith in Stevenage</p></router-link>
+              <router-link :to="{ path: '/locksmith-swindon' }"><p>Locksmith in Swindon</p></router-link>
+              <router-link :to="{ path: '/locksmith-underland' }"><p>Locksmith in Sunderland</p></router-link>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
               <h2>W</h2>
-              <p>Locksmith in Wigan</p>
-              <p>Locksmith in Warrington</p>
+              <router-link :to="{ path: '/locksmith-wigan' }"><p>Locksmith in Wigan</p></router-link>
+              <router-link :to="{ path: '/locksmith-warrington' }"><p>Locksmith in Warrington</p></router-link>
             </div>
             <div class="col-12 col-md-3">
 
@@ -187,6 +187,18 @@ export default {
 <style scoped lang="scss">
 .locksmiths {
   background: #fff8f6;
+  a {
+    color: $ourBlack;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    &.active, &:after, &:focus {
+      color: $ourBlack;
+    }
+    &:hover {
+      color: $ourYellow;
+    }
+  }
 }
 ul {
   padding-left: 1rem;

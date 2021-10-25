@@ -50,7 +50,9 @@ export default {
         this.existingPlace = null;
         let test = document.getElementsByClassName('pac-target-input')[0].value;
         if(test.includes('Bristol')) {
-          this.$router.push({path: '/'})
+          this.$router.push({path: '/locksmith-bristol'})
+        } else {
+          this.$router.push({path: '/locksmith-near-me'})
         }
         console.log(test);
       }

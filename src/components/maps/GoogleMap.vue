@@ -55,11 +55,6 @@ export default {
         this.locPlaces.push(this.existingPlace);
         this.center = marker;
         this.existingPlace = null;
-        let test = document.getElementsByClassName('pac-target-input')[0].value;
-        if(test.includes('Bristol')) {
-          this.$router.push({path: '/'})
-        }
-        console.log(test);
       }
     },
     locateGeoLocation: function() {

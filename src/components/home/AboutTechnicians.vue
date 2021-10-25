@@ -7,8 +7,8 @@
           <ul>
             <li>Master key systems</li>
             <li>High security cylinders</li>
-            <li>Changing and rekeying locks</li>
-            <li>Keyless entry systems</li>
+            <li>Changing locks</li>
+            <li>Unlock multiple type of doors</li>
             <li>Fast lock out service</li>
             <li>Installation and repair of locks</li>
             <li>Window locks</li>

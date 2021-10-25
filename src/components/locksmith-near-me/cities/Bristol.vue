@@ -155,13 +155,9 @@ export default {
   @media (max-width: 700px) {
     max-height: 100%;
   }
-  .hero-man {
-    background-image: url("../../../../public/images/header-man.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  .w-25 {
     @media (max-width: 700px) {
-      display: none;
+      width: 80% !important;
     }
   }
   ul {

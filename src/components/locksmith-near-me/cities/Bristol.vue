@@ -105,9 +105,10 @@ import Partners from "../../home/Partners";
 export default {
   name: "City",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
-  props: {
-    city: {
-      type: String
+  data() {
+    let city = this.$route.params.city
+    return {
+      city: city
     }
   }
 }
@@ -165,6 +166,11 @@ export default {
     li {
       list-style-type: none;
       text-align: center;
+      @media (max-width: 700px) {
+        margin-left: 30px;
+        list-style-type: circle;
+        text-align: left;
+      }
     }
   }
 }

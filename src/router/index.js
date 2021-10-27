@@ -34,10 +34,9 @@ export default new Router({
 
                 },
                 {
-                    path: '/locksmith-bristol',
+                    path: '/locksmith/:city',
                     name: 'Cities',
                     component: Cities,
-                    props: { city: String }
                 }
             ]
         }

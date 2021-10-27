@@ -171,6 +171,9 @@ export default {
 h1 {
   font-size: 4rem;
   font-weight: 600;
+  @media (max-width: 700px) {
+    font-size: 2.5rem;
+  }
   &.with-border {
     border-left: 10px solid $ourYellow;
     padding-left: 25px;

@@ -36,7 +36,7 @@
       <div class="row pt-4 pb-5">
         <div class="col-12">
           <img src="../../../public/images/Main-Logo.png" alt="main-logo" class="pb-5" />
-          <h5 class="pb-4">We cover multiple areas around London with professional locksmiths right near you: </h5>
+          <h5 class="pb-4">We cover multiple areas in United Kingdom with professional locksmiths right near you: </h5>
           <div class="row">
             <div class="col-12 col-md-3">
               <h2>B</h2>

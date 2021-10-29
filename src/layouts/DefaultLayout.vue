@@ -40,7 +40,7 @@
             <div class="d-md-none"><hr/></div>
             <div class="col-sm-12 col-md-6 align-self-center text-center">
               <ul class="contact-list">
-                <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: 78 Vivien Avenue</li>
+                <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: Uk Local Services Ltd 89 Brent Street</li>
                 <li><span><font-awesome-icon icon="envelope"></font-awesome-icon></span>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>
                 <li><span><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>Phone: <a href="tel:03333446467">03333446467</a></li>
               </ul>

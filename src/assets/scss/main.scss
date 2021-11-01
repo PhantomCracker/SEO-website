@@ -1,7 +1,47 @@
 @import '_variables.scss';
 
-li {
-  a {
-    color: $my_green;
+.footer {
+  background-color: $ourBlack;
+  .brand {
+    .brand-logo-light {
+      width: 100%;
+      height: 100%;
+      height: auto;
+    }
   }
+  .footer-classic {
+    padding: 30px 10px;
+  }
+  .contact-list {
+    font-size: 20px;
+    a {
+      color: $ourYellow;
+      text-decoration: none;
+    }
+  }
+}
+
+.my-yellow {
+  color: $ourYellow;
+}
+
+.my-primary-btn {
+  background-color: $ourYellow;
+  border-color: $ourYellow;
+  a {
+    font-size: 1.7rem;
+  }
+  &:hover {
+    background-color: $ourBlack;
+    border-color: $ourBlack;
+  }
+}
+
+.with-border {
+  border-left: 10px solid $ourYellow;
+  padding-left: 25px;
+}
+
+.small-text {
+  font-size: 1.5rem;
 }

@@ -28,4 +28,5 @@ Vue.use(VueGoogleMaps, {
 new Vue({
   router,
   render: h => h(App),
+  components: { App }
 }).$mount('#app')

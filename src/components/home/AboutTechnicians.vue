@@ -2,13 +2,13 @@
   <div class="about-technicians">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 pt-5 pb-5 d-flex align-self-center flex-column">
+        <div class="col-12 col-lg-6 d-flex align-self-center flex-column">
           <p class="small-text text-start text-white">Our technicians are equipped with the <span class="fw-bold">latest modern technology</span> and are available 24/7 at your request.</p>
           <ul>
             <li>Master key systems</li>
             <li>High security cylinders</li>
-            <li>Changing and rekeying locks</li>
-            <li>Keyless entry systems</li>
+            <li>Changing locks</li>
+            <li>Unlock multiple type of doors</li>
             <li>Fast lock out service</li>
             <li>Installation and repair of locks</li>
             <li>Window locks</li>
@@ -48,7 +48,7 @@ export default {
       }
     }
     .technician-man {
-      width: 50%;
+      width: 35%;
       height: 100%;
       height: auto;
     }

@@ -26,6 +26,7 @@ Vue.use(VueGoogleMaps, {
 });
 
 new Vue({
+  el: '#app',
   router,
   render: h => h(App),
   components: { App }

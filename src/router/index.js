@@ -41,7 +41,7 @@ export default new Router({
             ]
         }
     ],
-    scrollBehavior() {
-        document.getElementById('app').scrollIntoView();
-    }
+    // scrollBehavior() {
+    //     document.getElementById('app').scrollIntoView();
+    // }
 });

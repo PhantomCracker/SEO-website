@@ -8,7 +8,6 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
-    // test
   </div>
 </template>
 

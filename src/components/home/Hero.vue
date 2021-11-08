@@ -5,7 +5,7 @@
         <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
           <h1 class="text-white text-start with-border">Emergency <span class="my-yellow">Locksmith</span> service available 24/7</h1>
           <ul class="with-border">
-            <li class="text-white text-start pl-2">Service on spot withing 25 minute</li>
+            <li class="text-white text-start pl-2">Service on spot withing 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £49</li>
             <li class="text-white text-start pl-2">Locks from £25</li>
           </ul>

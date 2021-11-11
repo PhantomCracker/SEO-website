@@ -58,6 +58,7 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Durham' } }"><p>Locksmith in Durham</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Derby' } }"><p>Locksmith in Derby</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Doncaster' } }"><p>Locksmith in Doncaster</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Darlington' } }"><p>Locksmith in Darlington</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>G</h2>

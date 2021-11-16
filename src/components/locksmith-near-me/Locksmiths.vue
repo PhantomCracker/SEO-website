@@ -105,6 +105,7 @@
             <div class="col-12 col-md-3">
               <h2>R</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Reading' } }"><p>Locksmith in Reading</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Redhill' } }"><p>Locksmith in Redhill</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>S</h2>
@@ -113,6 +114,7 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Stevenage' } }"><p>Locksmith in Stevenage</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Swindon' } }"><p>Locksmith in Swindon</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Sunderland' } }"><p>Locksmith in Sunderland</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Slough' } }"><p>Locksmith in Slough</p></router-link>
             </div>
           </div>
           <div class="row">

@@ -179,7 +179,7 @@ ul, ol {
     width:60px;
     height:60px;
     bottom:40px;
-    right:40px;
+    left:15px;
     //background-color:#0C9;
     color:#FFF;
     border-radius:50px;
@@ -202,8 +202,7 @@ ul, ol {
     width:60px;
     height:60px;
     bottom:40px;
-    left:15px;
-    float: left;
+    right:40px;
     //background-color:#0C9;
     color:#FFF;
     border-radius:50px;

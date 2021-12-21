@@ -43,6 +43,7 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Brighton' } }"><p>Locksmith in Brighton</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Bristol' } }"><p>Locksmith in Bristol</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Birmingham' } }"><p>Locksmith in Birgmingham</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Bolton' } }"><p>Locksmith in Bolton</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>C</h2>
@@ -115,6 +116,7 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Swindon' } }"><p>Locksmith in Swindon</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Sunderland' } }"><p>Locksmith in Sunderland</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Slough' } }"><p>Locksmith in Slough</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Stockport' } }"><p>Locksmith in Stockport</p></router-link>
             </div>
           </div>
           <div class="row">

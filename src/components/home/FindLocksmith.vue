@@ -130,6 +130,10 @@ export default {
           await this.$router.push({name: 'Cities', params: {city: 'Redhill'}})
         } else if(userInput.includes('Slough')) {
           await this.$router.push({name: 'Cities', params: {city: 'Slough'}})
+        } else if(userInput.includes('Bolton')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Bolton'}})
+        } else if(userInput.includes('Stockport')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Stockport'}})
         } else {
           this.$router.push({path: '/locksmith-near-me'})
         }

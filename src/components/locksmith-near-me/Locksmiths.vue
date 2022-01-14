@@ -44,6 +44,8 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Bristol' } }"><p>Locksmith in Bristol</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Birmingham' } }"><p>Locksmith in Birgmingham</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Bolton' } }"><p>Locksmith in Bolton</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Bradford' } }"><p>Locksmith in Bradford</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Bromley' } }"><p>Locksmith in Bromley</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>C</h2>
@@ -53,6 +55,7 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Chelmsford' } }"><p>Locksmith in Chelmsford</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Cambridge' } }"><p>Locksmith in Cambridge</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Coventry' } }"><p>Locksmith in Coventry</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Croydon' } }"><p>Locksmith in Croydon</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>D</h2>
@@ -60,18 +63,37 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Derby' } }"><p>Locksmith in Derby</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Doncaster' } }"><p>Locksmith in Doncaster</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Darlington' } }"><p>Locksmith in Darlington</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Dudley' } }"><p>Locksmith in Dudley</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Dartford' } }"><p>Locksmith in Dartford</p></router-link>
             </div>
+            <div class="col-12 col-md-3">
+              <h2>E</h2>
+              <router-link :to="{ name: 'Cities', params: { city: 'Enfield' } }"><p>Locksmith in Enfield</p></router-link>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-12 col-md-3">
               <h2>G</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Guildford' } }"><p>Locksmith in Guildford</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Glouchester' } }"><p>Locksmith in Glouchester</p></router-link>
             </div>
-          </div>
-          <div class="row">
+            <div class="col-12 col-md-3">
+              <h2>H</h2>
+              <router-link :to="{ name: 'Cities', params: { city: 'Harrow' } }"><p>Locksmith in Harrow</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Hemel-Hempstead' } }"><p>Locksmith in Hemel Hempstead</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Huddersfield' } }"><p>Locksmith in Huddersfield</p></router-link>
+            </div>
             <div class="col-12 col-md-3">
               <h2>I</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Ipswich' } }"><p>Locksmith in Ipswich</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Ilford' } }"><p>Locksmith in Ilford</p></router-link>
             </div>
+            <div class="col-12 col-md-3">
+              <h2>K</h2>
+              <router-link :to="{ name: 'Cities', params: { city: 'Kingston-upon-Thames' } }"><p>Locksmith in Kingston upon Thames</p></router-link>
+            </div>   
+          </div>
+          <div class="row">
             <div class="col-12 col-md-3">
               <h2>L</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Leeds' } }"><p>Locksmith in Leeds</p></router-link>
@@ -92,13 +114,13 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Newcastle' } }"><p>Locksmith in Newcastle</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Norwich' } }"><p>Locksmith in Norwich</p></router-link>
             </div>
-          </div>
-          <div class="row">
             <div class="col-12 col-md-3">
               <h2>O</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Oxford' } }"><p>Locksmith in Oxford</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Oldham' } }"><p>Locksmith in Oldham</p></router-link>
             </div>
+          </div>
+          <div class="row">
             <div class="col-12 col-md-3">
               <h2>P</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Peterborough' } }"><p>Locksmith in Peterborough</p></router-link>
@@ -107,6 +129,7 @@
               <h2>R</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Reading' } }"><p>Locksmith in Reading</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Redhill' } }"><p>Locksmith in Redhill</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Romford' } }"><p>Locksmith in Romford</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>S</h2>
@@ -117,16 +140,25 @@
               <router-link :to="{ name: 'Cities', params: { city: 'Sunderland' } }"><p>Locksmith in Sunderland</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Slough' } }"><p>Locksmith in Slough</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Stockport' } }"><p>Locksmith in Stockport</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'St-Albans' } }"><p>Locksmith in St Albans</p></router-link>
+            </div>
+            <div class="col-12 col-md-3">
+              <h2>T</h2>
+              <router-link :to="{ name: 'Cities', params: { city: 'Twickenham' } }"><p>Locksmith in Twickenham</p></router-link>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
+              <h2>U</h2>
+              <router-link :to="{ name: 'Cities', params: { city: 'Uxbridge' } }"><p>Locksmith in Uxbridge</p></router-link>
+            </div>
+            <div class="col-12 col-md-3">
               <h2>W</h2>
               <router-link :to="{ name: 'Cities', params: { city: 'Wigan' } }"><p>Locksmith in Wigan</p></router-link>
               <router-link :to="{ name: 'Cities', params: { city: 'Warrington' } }"><p>Locksmith in Warrington</p></router-link>
-            </div>
-            <div class="col-12 col-md-3">
-
+              <router-link :to="{ name: 'Cities', params: { city: 'Wolverhampton' } }"><p>Locksmith in Wolverhampton</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Wakefield' } }"><p>Locksmith in Wakefield</p></router-link>
+              <router-link :to="{ name: 'Cities', params: { city: 'Watford' } }"><p>Locksmith in Watford</p></router-link>
             </div>
             <div class="col-12 col-md-3">
 

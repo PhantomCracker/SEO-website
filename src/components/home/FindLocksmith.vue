@@ -134,6 +134,42 @@ export default {
           await this.$router.push({name: 'Cities', params: {city: 'Bolton'}})
         } else if(userInput.includes('Stockport')) {
           await this.$router.push({name: 'Cities', params: {city: 'Stockport'}})
+        } else if(userInput.includes('Dudley')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Dudley'}})
+        } else if(userInput.includes('Wolverhampton')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Wolverhampton'}})
+        } else if(userInput.includes('Bradford')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Bradford'}})
+        } else if(userInput.includes('Wakefield')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Wakefield'}})
+        } else if(userInput.includes('Uxbridge')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Uxbridge'}})
+        } else if(userInput.includes('Harrow')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Harrow'}})
+        } else if(userInput.includes('Watford')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Watford'}})
+        } else if(userInput.includes('Albans')) {
+          await this.$router.push({name: 'Cities', params: {city: 'St-Albans'}})
+        } else if(userInput.includes('Hemel')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Hemel-Hempstead'}})
+        } else if(userInput.includes('Huddersfield')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Huddersfield'}})
+        } else if(userInput.includes('Ilford')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Ilford'}})
+        } else if(userInput.includes('Romford')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Romford'}})
+        } else if(userInput.includes('Enfield')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Enfield'}})
+        } else if(userInput.includes('Kingston')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Kingston-upon-Thames'}})
+        } else if(userInput.includes('Twickenham')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Twickenham'}})
+        } else if(userInput.includes('Croydon')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Croydon'}})
+        } else if(userInput.includes('Bromley')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Bromley'}})
+        } else if(userInput.includes('Dartford')) {
+          await this.$router.push({name: 'Cities', params: {city: 'Dartford'}})
         } else {
           this.$router.push({path: '/locksmith-near-me'})
         }

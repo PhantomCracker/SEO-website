@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueGTag from 'vue-gtag';
 
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
@@ -17,6 +18,12 @@ library.add(faPhoneAlt, faLock, faKey, faDoorClosed, faTools, faMapMarkedAlt, fa
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false
+
+Vue.use(VueGTag, {
+  config: {
+    id: 'GTM-NP5V4B2'
+  }  
+})
 
 Vue.use(VueGoogleMaps, {
   load: {

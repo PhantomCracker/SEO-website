@@ -22,7 +22,7 @@
     "sass": "^1.38.0",
     "sass-loader": "^10",
     "vue": "^2.6.11",
-    "vue-gtag": "^2.0.1",
+    "vue-gtag": "^1.0.1",
     "vue-router": "^3.5.2",
     "vue2-google-maps": "^0.10.7",
     "vueperslides": "^2.15.2"

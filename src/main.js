@@ -21,7 +21,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueGTag, {
   config: {
-    id: 'GTM-NP5V4B2'
+    id: '303866227'
   }  
 })
 

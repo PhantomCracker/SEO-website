@@ -31,6 +31,9 @@
 export default {
   name: "AboutUs",
   components: {},
+  // mounted() {
+  //   this.$gtag.event('page', { method: 'Visited page' })
+  // },
   methods: {}
 }
 </script>

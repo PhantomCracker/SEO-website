@@ -40,14 +40,14 @@
             <div class="d-md-none"><hr/></div>
             <div class="col-sm-12 col-md-6 align-self-center text-center">
               <ul class="contact-list">
-                <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: Uk Local Services Ltd 89 Brent Street</li>
+                <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: 752c Finchley Road, London, England</li>
                 <li><span><font-awesome-icon icon="envelope"></font-awesome-icon></span>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>
                 <li><span><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>Phone: <a href="tel:03333446467">03333446467</a></li>
               </ul>
             </div>
           </div>
           <div class="row pt-3">
-            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>
+            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> Local Locksmith Services LTD </span><span> - </span><span>All Rights Reserved.</span></p>
           </div>
         </div>
       </footer>

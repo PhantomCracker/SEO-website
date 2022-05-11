@@ -2,7 +2,6 @@
   <div class="home">
     <ServicesOnTop />
     <Hero />
-    <FindLocksmith />
     <ServicesCard />
     <Information />
     <AboutTechnicians />
@@ -13,7 +12,6 @@
 
 <script>
 import Hero from '../components/home/Hero';
-import FindLocksmith from "../components/home/FindLocksmith";
 import ServicesCard from "../components/home/ServicesCard";
 import Information from "../components/home/Information";
 import AboutTechnicians from "../components/home/AboutTechnicians";
@@ -26,7 +24,6 @@ export default {
   components: {
     ChooseUs,
     ServicesOnTop,
-    FindLocksmith,
     Hero,
     ServicesCard,
     Information,

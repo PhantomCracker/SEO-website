@@ -69,6 +69,7 @@ import WarringtonCity from "@/pages/WarringtonCity";
 import WatfordCity from "@/pages/WatfordCity";
 import WiganCity from "@/pages/WiganCity";
 import WolverhamptonCity from "@/pages/WolverhamptonCity";
+import BlackburnCity from "@/pages/BlackburnCity";
 
 Vue.use(Router);
 
@@ -131,6 +132,11 @@ export default new Router({
                     path:'/Bromley',
                     name: 'BromleyCity',
                     component: BromleyCity
+                },
+                {
+                    path:'/Blackburn',
+                    name: 'BlackburnCity',
+                    component: BlackburnCity
                 },
                 {
                     path:'/Cambridge',

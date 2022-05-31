@@ -203,7 +203,7 @@ ul, ol {
     width:60px;
     height:60px;
     bottom:40px;
-    right:40px;
+    right:25px;
     //background-color:#0C9;
     color:#FFF;
     border-radius:50px;

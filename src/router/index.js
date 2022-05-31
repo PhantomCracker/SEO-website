@@ -70,6 +70,7 @@ import WatfordCity from "@/pages/WatfordCity";
 import WiganCity from "@/pages/WiganCity";
 import WolverhamptonCity from "@/pages/WolverhamptonCity";
 import BlackburnCity from "@/pages/BlackburnCity";
+import PrestonCity from "@/pages/PrestonCity";
 
 Vue.use(Router);
 
@@ -317,6 +318,11 @@ export default new Router({
                     path:'/Peterborough',
                     name: 'PeterboroughCity',
                     component: PeterboroughCity
+                },
+                {
+                    path:'/Preston',
+                    name: 'PrestonCity',
+                    component: PrestonCity
                 },
                 {
                     path:'/Reading',

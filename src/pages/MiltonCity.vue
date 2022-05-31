@@ -4,9 +4,9 @@
       <div class="container">
         <div class="row pt-5 pb-5">
           <div class="col-lg-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
-            <h1 class="text-white text-start text-center">Local locksmith in  <span class="my-yellow">Milton</span></h1>
+            <h1 class="text-white text-start text-center">Local locksmith in  <span class="my-yellow">Milton Keynes</span></h1>
             <ul class="text-center ps-0 pt-2">
-              <li class="text-white"><h3><span class="fw-bold">Emergency</span> Locksmith in Milton</h3></li>
+              <li class="text-white"><h3><span class="fw-bold">Emergency</span> Locksmith in Milton Keynes</h3></li>
               <li class="text-white">In case of a burglary, call us and we will repair the damage</li>
               <li class="text-white">Best Price: Labour from 49£ and locks from 25£</li>
               <li class="text-white">Refund: Money back guaranteed if we couldn’t fix</li>
@@ -48,7 +48,7 @@ export default {
       {
         vmid: 'description',
         name: 'description',
-        content: '24/7 emergency locksmith services in Milton. UK Local Locksmith also provide a range of services and supplies designed to improve the security of your home or business'
+        content: '24/7 emergency locksmith services in Milton Keynes. UK Local Locksmith also provide a range of services and supplies designed to improve the security of your home or business'
       }
     ]
   }

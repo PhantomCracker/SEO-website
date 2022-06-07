@@ -3,7 +3,7 @@
     <div class="container about-us-bg pt-4 mt-4 pb-4 mb-4">
       <div class="row">
         <div class="col-12 col-lg-6 mx-auto d-block mb-3 mt-3 my-yellow">
-          <h1>A Tad About Us</h1>
+          <h1>Locksmith near you - A Tad About Us</h1>
         </div>
       </div>
       <div class="row text-start">

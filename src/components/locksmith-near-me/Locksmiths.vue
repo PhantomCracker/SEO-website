@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row pt-5 pb-5">
         <div class="col-12 pb-5">
-          <h1>The main reason to choose us</h1>
+          <h1>Locksmith near you - The main reason to choose us</h1>
         </div>
         <div class="col-12 col-lg-6">
           <div class="card shadow">

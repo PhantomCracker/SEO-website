@@ -39,6 +39,11 @@ import Partners from "@/components/home/Partners";
 export default {
   name: "CreweCity",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  methods: {
+    track () {
+      this.$ga.page('/Crewe')
+    }
+  },
   metaInfo: {
     title: 'Emergency locksmith in Crewe',
     meta: [

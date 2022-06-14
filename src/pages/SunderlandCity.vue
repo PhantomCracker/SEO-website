@@ -39,6 +39,11 @@ import Partners from "@/components/home/Partners";
 export default {
   name: "SunderlandCity",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  methods: {
+    track () {
+      this.$ga.page('/Sunderland')
+    }
+  },
   metaInfo: {
     title: 'Emergency locksmith in Sunderland',
     meta: [

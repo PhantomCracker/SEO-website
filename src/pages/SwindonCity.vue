@@ -39,6 +39,11 @@ import Partners from "@/components/home/Partners";
 export default {
   name: "SwindonCity",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  methods: {
+    track () {
+      this.$ga.page('/Swindon')
+    }
+  },
   metaInfo: {
     title: 'Emergency locksmith in Swindon',
     meta: [

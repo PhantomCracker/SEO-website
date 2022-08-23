@@ -11,6 +11,11 @@ export default {
   name: "Cities",
   components: {
     City
+  },
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')
+    document.head.appendChild(whatConvertsScript)
   }
 }
 </script>

@@ -39,6 +39,11 @@ import Partners from "@/components/home/Partners";
 export default {
   name: "SheffieldCity",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Emergency locksmith in Sheffield',
     meta: [

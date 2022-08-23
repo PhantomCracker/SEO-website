@@ -39,6 +39,11 @@ import Partners from "@/components/home/Partners";
 export default {
   name: "SwindonCity",
   components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   methods: {
     track () {
       this.$ga.page('/Swindon')

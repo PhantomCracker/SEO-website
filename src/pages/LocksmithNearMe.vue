@@ -12,6 +12,11 @@ export default {
   components: {
     Locksmiths
   },
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'UK Local Locksmith',
     meta: [

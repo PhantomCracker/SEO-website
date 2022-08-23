@@ -10,7 +10,7 @@
             <li class="text-white text-start pl-2">Locks from £25</li>
           </ul>
           <button class="btn btn-primary align-self-center w-50 my-primary-btn mt-4">
-            <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+            <a class="text-white text-decoration-none" href="tel:01183100429"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
           </button>
         </div>
         <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>

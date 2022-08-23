@@ -14,7 +14,7 @@
               <li class="text-white">Full range of items to provide access for required services</li>
             </ul>
             <button class="btn btn-primary align-self-center w-25 my-primary-btn mt-4">
-              <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+              <a class="text-white text-decoration-none" href="tel:01183100429"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
             </button>
           </div>
         </div>
@@ -72,13 +72,13 @@
       <div class="row mb-5">
         <div class="col-12">
           <button class="btn btn-primary align-self-center my-primary-btn mt-4">
-            <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+            <a class="text-white text-decoration-none" href="tel:01183100429"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
           </button>
         </div>
       </div>
       <div class="row pb-5">
         <div class="col-12 pb-5">
-          <a class="text-white text-decoration-none d-none d-lg-block" href="tel:03333446467"><img src="../../../../public/images/CallUs.png" width="100%" alt="main-logo" /></a>
+          <a class="text-white text-decoration-none d-none d-lg-block" href="tel:01183100429"><img src="../../../../public/images/CallUs.png" width="100%" alt="main-logo" /></a>
         </div>
         <div class="col-12 text-start">
           <p>UK Local Locksmith are always the best locksmiths near you, including in {{ city }} with after hours locksmith services. Our Emergency locksmiths in {{ city }} offers same day locksmith with 24 hours coverage and is your best option with any problem, like lock-in, lock-out, residential or even business locksmith requirements. UK Local Locksmith in {{ city }} offers the best and cheap solution for your low price locksmithing needs in the least amount of time. We react quickly to problems and calls-outs for best locksmith in {{ city }} with emergency lock-in and locksmith lock-out services and we can be there with our Emergency Locksmith in {{ city }} team in 25 minutes.</p>

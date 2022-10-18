@@ -6,7 +6,7 @@
           <h1 class="text-white text-start with-border">Emergency <span class="my-yellow">Locksmith</span> service available 24/7</h1>
           <ul class="with-border">
             <li class="text-white text-start pl-2">Service on spot withing 25 minutes</li>
-            <li class="text-white text-start pl-2">Local service from £49</li>
+            <li class="text-white text-start pl-2">Local service from £39</li>
             <li class="text-white text-start pl-2">Locks from £25</li>
           </ul>
           <button class="btn btn-primary align-self-center w-50 my-primary-btn mt-4">

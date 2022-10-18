@@ -8,7 +8,7 @@
             <ul class="text-center ps-0 pt-2">
               <li class="text-white"><h3><span class="fw-bold">Emergency</span> Locksmith in Manchester</h3></li>
               <li class="text-white">In case of a burglary, call us and we will repair the damage</li>
-              <li class="text-white">Best Price: Labour from 49£ and locks from 25£</li>
+              <li class="text-white">Best Price: Labour from 39£ and locks from 25£</li>
               <li class="text-white">Refund: Money back guaranteed if we couldn’t fix</li>
               <li class="text-white">Full range of items to provide access for required services</li>
             </ul>

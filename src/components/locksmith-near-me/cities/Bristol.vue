@@ -9,7 +9,7 @@
             <ul class="text-center">
               <li class="text-white">Emergency Locksmith in {{ city }}</li>
               <li class="text-white">In case of a burglary, call us and we will repair the damage</li>
-              <li class="text-white">Best Price: Labour from 49£ and locks from 25£</li>
+              <li class="text-white">Best Price: Labour from 39£ and locks from 25£</li>
               <li class="text-white">Refund: Money back guaranteed if we couldn’t fix</li>
               <li class="text-white">Full range of items to provide access for required services</li>
             </ul>
@@ -37,7 +37,7 @@
           <img src="../../../../public/images/icons/best.svg" class="fa-pull-left" alt="emergency" />
           <div class="text">
             <h5>Best Price</h5>
-            <p class="mr-gray">Labour from 49£ and locks from 25£</p>
+            <p class="mr-gray">Labour from 39£ and locks from 25£</p>
           </div>
         </div>
         <div class="col-12 col-lg-4 d-block text-start mb-5">

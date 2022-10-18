@@ -10,7 +10,7 @@
             <div class="card-body">
               <ul class="d-flex flex-column align-items-center">
                 <li>Emergency Locksmith 24/7 in your location</li>
-                <li>Labour from 49£ and locks from 25£</li>
+                <li>Labour from 39£ and locks from 25£</li>
                 <li>Money back guaranteed if we couldn’t fix</li>
               </ul>
             </div>

@@ -76,8 +76,8 @@ export default {
           await this.$router.push({name: 'Cities', params: { city: 'Doncaster' }})
         } else if(userInput.includes('Guildford')) {
           await this.$router.push({name: 'Cities', params: { city: 'Guildford' }})
-        } else if(userInput.includes('Glouchester')) {
-          await this.$router.push({name: 'Cities', params: { city: 'Glouchester' }})
+        } else if(userInput.includes('Gloucester')) {
+          await this.$router.push({name: 'Cities', params: { city: 'Gloucester' }})
         } else if(userInput.includes('Ipswich')) {
           await this.$router.push({name: 'Cities', params: { city: 'Ipswich' }})
         } else if(userInput.includes('Leeds')) {

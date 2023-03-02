@@ -29,7 +29,7 @@ import DoncasterCity from "@/pages/DoncasterCity";
 import DudleyCity from "@/pages/DudleyCity";
 import DurhamCity from "@/pages/DurhamCity";
 import EnfieldCity from "@/pages/EnfieldCity";
-import GlouchesterCity from "@/pages/GlouchesterCity";
+import GloucesterCity from "@/pages/GloucesterCity";
 import GuildfordCity from "@/pages/GuildfordCity";
 import HarrowCity from "@/pages/HarrowCity";
 import HemelCity from "@/pages/HemelCity";
@@ -210,9 +210,9 @@ export default new Router({
                     component: EnfieldCity
                 },
                 {
-                    path:'/Glouchester',
-                    name: 'GlouchesterCity',
-                    component: GlouchesterCity
+                    path:'/Gloucester',
+                    name: 'GloucesterCity',
+                    component: GloucesterCity
                 },
                 {
                     path:'/Guildford',

@@ -75,7 +75,7 @@
             <div class="col-12 col-md-3">
               <h2>G</h2>
               <router-link :to="{ name: 'GuildfordCity' }"><p>Locksmith in Guildford</p></router-link>
-              <router-link :to="{ name: 'GlouchesterCity' }"><p>Locksmith in Glouchester</p></router-link>
+              <router-link :to="{ name: 'GloucesterCity' }"><p>Locksmith in Gloucester</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>H</h2>

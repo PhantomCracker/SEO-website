@@ -6,7 +6,7 @@
           <div class="col-lg-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
             <h1 class="text-white text-start text-center">Local locksmith in  <span class="my-yellow">Leicester</span></h1>
             <ul class="text-center ps-0 pt-2">
-              <li class="text-white"><h3><span class="fw-bold">Emergency</span> Locksmith in Leicester</h3></li>
+              <li class="text-white"><h3><span class="fw-bold">Emergency</span> Locksmith Leicester on spot in 20-30 min</h3></li>
               <li class="text-white">In case of a burglary, call us and we will repair the damage</li>
               <li class="text-white">Best Price: Labour from 39£ and locks from 25£</li>
               <li class="text-white">Refund: Money back guaranteed if we couldn’t fix</li>
@@ -25,6 +25,17 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
+    
+<div>
+<ul class="text-center ps-0 pt-2">
+<li>A great way to find a local locksmith near mein Leicester is by using a search engine. </li>
+<li>You can also look for local reviews of locksmiths in Leicester the area to see which ones have the best ratings and recommendations. </li>
+<li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
+<li>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths coverall areas near you:</li>
+<li>Leicester, Hinckley, Loughborough, Melton Mowbray, Oakham, Market Harborough, Lutterworth, Wigston, Coalville, Markfield, Ibstock</li>
+</ul>
+</div>
+    
   </div>
 </template>
 
@@ -45,7 +56,7 @@ export default {
     document.head.appendChild(whatConvertsScript)
   },
   metaInfo: {
-    title: 'Emergency locksmith in Leicester',
+    title: 'Emergency locksmith near me in Leicester',
     meta: [
       {
         charset: 'utf-8'
@@ -53,7 +64,7 @@ export default {
       {
         vmid: 'description',
         name: 'description',
-        content: '24/7 emergency locksmith services in Leicester. UK Local Locksmith also provide a range of services and supplies designed to improve the security of your home or business'
+        content: 'Locksmith near me in Leicester area 24/7. Emergency Locksmith on spot in 20-30 min. best quality locksmith services with multiple teams located near you'
       }
     ]
   }

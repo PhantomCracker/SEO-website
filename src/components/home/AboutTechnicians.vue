@@ -1,9 +1,9 @@
-<template>
+ge<template>
   <div class="about-technicians">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 d-flex align-self-center flex-column">
-          <p class="small-text text-start text-white">Our technicians are equipped with the <span class="fw-bold">latest modern technology</span> and are available 24/7 at your request.</p>
+          <p class="small-text text-start text-white">Our locksmith technicians are equipped with the <span class="fw-bold">latest modern technology</span> and are available 24/7 at your request.</p>
           <ul>
             <li>Master key systems</li>
             <li>High security cylinders</li>
@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="col-12 col-lg-6 d-block">
-          <img class="technician-man pt-5" src="../../../public/images/man2.png" alt="hero-man" />
+          <img class="technician-man pt-5" src="../../../public/images/man2.png" alt="Emergency Locksmith near me on spot in 20-30 min" title="Emergency Locksmith near me on spot in 20-30 min"/>
         </div>
       </div>
     </div>

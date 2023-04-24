@@ -27,14 +27,18 @@
             <li>You can also look for local reviews of locksmiths in Gloucester the area to see which ones have the best ratings and recommendations. </li>
             <li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
         </ul>
-        <h2>Locksmith Gloucester covering areas</h2></br>
+        <h2>Locksmith Gloucester covering areas</h2>
+        <br>
         <p>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths provide a reliable and professional locksmith service across Gloucester and the surrounding areas, including:</p>
         <p>Gloucester, Badminton, Berkeley, Blakeney, Cheltenham, Cinderford, Coleford, Cotswold, Dean, Drybrook, Dursley, Dymock, Fairford, Lechlade, Longhope, Lydbrook, Lydney, Mitcheldean, Newent, Newham, Ruardean, Stonehouse, Stroud, Tetbury, Tewkesbury, Cirencester</p>
-        <h2>Call Locksmith Gloucester 24/7</h2></br>
+        <h2>Call Locksmith Gloucester 24/7</h2>
+        <br>
         <p>UKlocallocksmith Locksmiths Gloucester is a cheap and experienced locksmith service and we are proud to be known as the “fastest locksmith in Gloucester” by anyone that uses our services. You can call us and discuss your problem with us, and we will diagnose the situation, and give you a free quote.</p>
-        <h2>Emergency Locksmith near me 24/7</h2></br>
+        <h2>Emergency Locksmith near me 24/7</h2>
+        <br>
         <p>UKlocallocksmith locksmiths are available 24 hours a day to help you. We supply &amp; fit all major brands of locks, and can also supply and fit any of the various multi-point locks for uPVC doors or composite doors &amp; also aluminium doors. UKlocallocksmith Locksmiths Gloucester can provide the latest snap resistant and burglar proof lock cylinders for any door type and any wooden doors can be upgraded with B/S3621 locks. Have you had a break in? We can do damage repair on your doors and supply and fit new, secure locks.</p>
-        <h2>Certified Locksmith near me Gloucester</h2></br>
+        <h2>Certified Locksmith near me Gloucester</h2>
+        <br>
         <p>All of our locksmiths are vetted, highly trained, uniformed, DBS checked and provide a guarantee for their work. UKlocallocksmith locksmiths aim to be with you within the hour, call us and we’ll tell you how we’ll solve the problem and provide you an upfront cost for doing so.</p>
     </div>
     <ServicesOnTop />

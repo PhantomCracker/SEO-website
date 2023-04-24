@@ -19,23 +19,22 @@
         </div>
       </div>
     </div>
+
+    <div>
+        <ul class="text-center ps-0 pt-2">
+            <li>A great way to find a local locksmith near mein Peterborough is by using a search engine. </li>
+            <li>You can also look for local reviews of locksmiths in Peterborough the area to see which ones have the best ratings and recommendations. </li>
+            <li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
+            <li>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths coverall areas near you:</li>
+            <li>Peterborough, Bury, Newark, Fleet, Huntingdon, Spalding, St Neots, Stamford, Hampton, Wisbech, Bourne, Oundle, St Ives, Whittlesey, Holbeach, March, Yaxley, Chatteris, Ramsey, Colne, Holywell, Sawtry, Southwick, Walton, Wennington, Ashton, Brampton, Covington, Eastgate, Easton, Ellington, Hartford, Hilton, Houghton, Morton, Newstead, Northborough, Perry, Upton, Wansford, Werrington, Weston, Westwood</li>
+        </ul>
+    </div>
     <ServicesOnTop />
     <ServiceCard />
     <Information />
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
-    
-<div>
-<ul class="text-center ps-0 pt-2">
-<li>A great way to find a local locksmith near mein Peterborough is by using a search engine. </li>
-<li>You can also look for local reviews of locksmiths in Peterborough the area to see which ones have the best ratings and recommendations. </li>
-<li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
-<li>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths coverall areas near you:</li>
-<li>Peterborough, Bury, Newark, Fleet, Huntingdon, Spalding, St Neots, Stamford, Hampton, Wisbech, Bourne, Oundle, St Ives, Whittlesey, Holbeach, March, Yaxley, Chatteris, Ramsey, Colne, Holywell, Sawtry, Southwick, Walton, Wennington, Ashton, Brampton, Covington, Eastgate, Easton, Ellington, Hartford, Hilton, Houghton, Morton, Newstead, Northborough, Perry, Upton, Wansford, Werrington, Weston, Westwood</li>
-</ul>
-</div>
-    
   </div>
 </template>
 

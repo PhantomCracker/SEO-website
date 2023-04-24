@@ -19,23 +19,21 @@
         </div>
       </div>
     </div>
+    <div>
+        <ul class="text-center ps-0 pt-2">
+            <li>A great way to find a local locksmith near mein Leicester is by using a search engine. </li>
+            <li>You can also look for local reviews of locksmiths in Leicester the area to see which ones have the best ratings and recommendations. </li>
+            <li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
+            <li>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths coverall areas near you:</li>
+            <li>Leicester, Hinckley, Loughborough, Melton Mowbray, Oakham, Market Harborough, Lutterworth, Wigston, Coalville, Markfield, Ibstock</li>
+        </ul>
+    </div>
     <ServicesOnTop />
     <ServiceCard />
     <Information />
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
-    
-<div>
-<ul class="text-center ps-0 pt-2">
-<li>A great way to find a local locksmith near mein Leicester is by using a search engine. </li>
-<li>You can also look for local reviews of locksmiths in Leicester the area to see which ones have the best ratings and recommendations. </li>
-<li>In addition, you can visit local locksmith near me store or website to inquire about services and pricing.</li>
-<li>We have a local locksmith near your location and he will be on spot in 20-30 minutes. Our locksmiths coverall areas near you:</li>
-<li>Leicester, Hinckley, Loughborough, Melton Mowbray, Oakham, Market Harborough, Lutterworth, Wigston, Coalville, Markfield, Ibstock</li>
-</ul>
-</div>
-    
   </div>
 </template>
 

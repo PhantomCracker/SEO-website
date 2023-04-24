@@ -19,7 +19,12 @@
         </div>
       </div>
     </div>
-
+    <ServicesOnTop />
+    <ServiceCard />
+    <Information />
+    <AboutTechnicians />
+    <ChooseUs />
+    <Partners />
     <div>
         <p>UKlocallocksmith Locksmiths Brighton only provide British, insurance approved locks and locking systems.</p>
         <ul class="text-center ps-0 pt-2">
@@ -41,12 +46,6 @@
         <br>
         <p>All of our locksmiths are vetted, highly trained, uniformed, DBS checked and provide a guarantee for their work. UKlocallocksmith locksmiths aim to be with you within the hour, call us and we’ll tell you how we’ll solve the problem and provide you an upfront cost for doing so.</p>
     </div>
-    <ServicesOnTop />
-    <ServiceCard />
-    <Information />
-    <AboutTechnicians />
-    <ChooseUs />
-    <Partners />
   </div>
 </template>
 

@@ -7,7 +7,7 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
-      <Testimonials />
+    <Testimonials />
   </div>
 </template>
 

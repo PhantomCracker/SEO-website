@@ -7,6 +7,7 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
+      <Testimonials />
   </div>
 </template>
 
@@ -18,10 +19,12 @@ import AboutTechnicians from "../components/home/AboutTechnicians";
 import Partners from "../components/home/Partners";
 import ServicesOnTop from "../components/home/ServicesOnTop";
 import ChooseUs from "../components/home/ChooseUs";
+import Testimonials from "@/components/home/Testimonials.vue";
 
 export default {
   name: "Home",
   components: {
+      Testimonials,
     ChooseUs,
     ServicesOnTop,
     Hero,

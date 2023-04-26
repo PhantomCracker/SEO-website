@@ -25,6 +25,7 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
+    <Testimonials />
 
     <div>
         <p>UKlocallocksmith Locksmiths Leicester only provide British, insurance approved locks and locking systems.</p>
@@ -58,9 +59,10 @@ import Information from "@/components/home/Information";
 import AboutTechnicians from "@/components/home/AboutTechnicians";
 import ChooseUs from "@/components/home/ChooseUs";
 import Partners from "@/components/home/Partners";
+import Testimonials from "@/components/home/Testimonials.vue";
 export default {
   name: "LeicesterCity",
-  components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  components: {Testimonials, Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
   mounted() {
     let whatConvertsScript = document.createElement('script')
     whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')

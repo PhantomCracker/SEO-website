@@ -25,6 +25,7 @@
     <AboutTechnicians />
     <ChooseUs />
     <Partners />
+    <Testimonials />
   </div>
 </template>
 
@@ -36,9 +37,10 @@ import Information from "@/components/home/Information";
 import AboutTechnicians from "@/components/home/AboutTechnicians";
 import ChooseUs from "@/components/home/ChooseUs";
 import Partners from "@/components/home/Partners";
+import Testimonials from "@/components/home/Testimonials.vue";
 export default {
   name: "SwindonCity",
-  components: {Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
+  components: {Testimonials, Partners, ChooseUs, AboutTechnicians, Information, ServiceCard, ServicesOnTop},
   mounted() {
     let whatConvertsScript = document.createElement('script')
     whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/100729.js')
